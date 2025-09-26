@@ -35,7 +35,7 @@ class Battle:
         self.f2.show_status()
 
         # 선공 랜덤으로 설정 
-        # 공격자 상대 설정 
+        # 선공자가 정해지면 후공자가 정해짐 
         turn = self.f1 if random.random() < 0.5 else self.f2
         other = self.f2 if turn is self.f1 else self.f1
         print(f"선공: {turn.get_name()}")
