@@ -50,16 +50,17 @@ class Battle:
             # 상대가 살아 있으면 곧바로 반격 턴 실행
             print(f"{other.get_name()}의 반격")
             self._take_turn(other, turn)
-
+            
+            # 틀레이어와 적의 상태 확인 
             print("\n----- 상태 -----")
             self.f1.show_status()
             self.f2.show_status()
             
-        # 라운드 상태를 보여주고 라운드 증가
+        # 승자 변수: 플레이어가 살아남으면 플레이어 승자임, 적이 살아남으면 적이 승자임 
         winner = self.f1 if self.f1.is_alive() else self.f2
         print("\n=== 전투 종료 ===")
         print(f"승자: {winner.get_name()}")
         # 루프가 끝나면 생존해 있는 쪽이 승자
         # 플레이어가 이겼는지 여부를 True 또는 False로 반환
-        # 바깥의 게임 루프에서 승리 시 계속할지 물어보고, 패배 시 종료
+        # game.py의 게임 루프에서 승리 시 계속할지 물어보고, 패배 시 종료
         return self.f1.is_alive()
