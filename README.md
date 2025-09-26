@@ -39,4 +39,4 @@
 + 패배 시 게임 종료
 
 <p align="center"><img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ff9838eb-643f-4b60-b921-eee73d6805c1" /></p>
-<div style="text-align: center"> <턴제 게임 예시> </div>
+<center>__<턴제 게임 예시>__ </center>
