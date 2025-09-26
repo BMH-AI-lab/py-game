@@ -47,14 +47,15 @@ class Battle:
             self._take_turn(turn, other)
             # 첫 타에 쓰러졌으면 반격 없이 즉시 종료.
             if not other.is_alive(): break
-            # 상대가 살아 있으면 곧바로 반격 턴 실행.
+            # 상대가 살아 있으면 곧바로 반격 턴 실행
             print(f"{other.get_name()}의 반격")
             self._take_turn(other, turn)
 
             print("\n----- 상태 -----")
             self.f1.show_status()
             self.f2.show_status()
-        # 라운드 말 상태를 보여주고 라운드 증가
+            
+        # 라운드 상태를 보여주고 라운드 증가
         winner = self.f1 if self.f1.is_alive() else self.f2
         print("\n=== 전투 종료 ===")
         print(f"승자: {winner.get_name()}")
