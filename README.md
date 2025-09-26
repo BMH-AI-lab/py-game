@@ -3,6 +3,7 @@
 ## 1. 게임 설명 
 + 플레이어는 자신의 캐릭터를 선택한 후, 적 캐릭터를 선택하여 전투를 진행한다.
     + 캐릭터: 전사, 마법사, 도적
++ 턴제 형식으로 전투 진행
 
 ## 2. 전투 방식
 + 턴 기반 전투 시스템으로 진행
@@ -38,4 +39,4 @@
 + 패배 시 게임 종료
 
 <p align="center"><img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ff9838eb-643f-4b60-b921-eee73d6805c1" /></p>
-<div style="text-align: center;"><턴제 게임 예시></div>
+<div style="text-align: center"> <턴제 게임 예시> </div>
