@@ -37,6 +37,5 @@
 + 플레이어가 승리하면 새로운 적을 선택하여 전투 진행 가능 (y/n 입력으로 선택 가능, 배문자도 가능) -> while문 이용
 + 패배 시 게임 종료
 
-<p align="center">
-  <img width="301" height="168" alt="Image" src="https://github.com/user-attachments/assets/70d04530-62d2-4b8b-99f0-1796c3f0c0a9" />
-</p>
+<p align="center"><img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ff9838eb-643f-4b60-b921-eee73d6805c1" /></p>
+<center>**턴제 게임 예시**</center>
