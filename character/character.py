@@ -2,7 +2,7 @@
 from abc import ABC, abstractmethod
 
 class Character(ABC):
-    # 캐릭터 들의 이름, 레벨, 체력, 공격력 저장
+    # 캐릭터들의 이름, 레벨, 체력, 공격력 생성  
     def __init__(self, name, level=1, health=100, attack_power=10):
         self.name = name
         self.level = level
