@@ -38,5 +38,5 @@
 + 패배 시 게임 종료
 
 <p align="center">
-  <img width="501" height="368" alt="Image" src="https://github.com/user-attachments/assets/70d04530-62d2-4b8b-99f0-1796c3f0c0a9" />
+  <img width="301" height="168" alt="Image" src="https://github.com/user-attachments/assets/70d04530-62d2-4b8b-99f0-1796c3f0c0a9" />
 </p>
